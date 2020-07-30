@@ -3784,3 +3784,27 @@ input, select, textarea {
 			}
 
 		}
+
+/* skills */
+.skills {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.skill {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	margin-bottom: 20px;
+}
+
+.skill > strong {
+	font-weight: 1000;
+}
+
+.skill-icon {
+	width: 60%;
+}
