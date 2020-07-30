@@ -3808,3 +3808,25 @@ input, select, textarea {
 .skill-icon {
 	width: 60%;
 }
+
+/* projects */
+.project {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 33%;
+
+}
+
+.project > a {
+	cursor: pointer;
+}
+
+.project-img {
+	width: 100%;
+	cursor: pointer;
+}
+
+.project-img:hover {
+	filter: brightness(0.7);
+}
